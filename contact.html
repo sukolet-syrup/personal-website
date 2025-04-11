@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="ccs/contact.css">
+</head>
+<body>
+
+  <section class="contact-wrapper">
+    <h2 class="contact-title">Contact Me</h2>
+    <form class="contact-form" action="#" method="post">
+      <select name="subject" required>
+        <option value="" disabled selected>Select Subject</option>
+        <option value="Inquiry">Inquiry</option>
+        <option value="Collaboration">Collaboration</option>
+        <option value="Feedback">Feedback</option>
+        <option value="Others">Others</option>
+      </select>
+      <input type="text" name="fullname" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="tel" name="contact" placeholder="Contact Number" required />
+      <textarea name="message" placeholder="Your Message..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <a href="index.html" class="back-home">Back to Home</a>
+  </section>
+
+</body>
+</html>
